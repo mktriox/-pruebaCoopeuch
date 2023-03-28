@@ -1,0 +1,9 @@
+com\coopeuch\pruebatecnica\controller\TareaController.class
+com\coopeuch\pruebatecnica\repository\TareaDAO.class
+com\coopeuch\pruebatecnica\PruebatecnicaApplication.class
+com\coopeuch\pruebatecnica\repository\impl\TareaDAOImpl.class
+com\coopeuch\pruebatecnica\service\vo\TareaVO.class
+com\coopeuch\pruebatecnica\repository\model\Tarea.class
+com\coopeuch\pruebatecnica\service\TareaService.class
+com\coopeuch\pruebatecnica\service\impl\TareaServiceImpl.class
+com\coopeuch\pruebatecnica\repository\model\SwaggerConfig.class

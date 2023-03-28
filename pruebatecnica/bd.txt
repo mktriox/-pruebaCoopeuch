@@ -1,0 +1,17 @@
+-- Table: public.tarea
+
+-- DROP TABLE IF EXISTS public.tarea;
+
+CREATE TABLE IF NOT EXISTS public.tarea
+(
+    identificador bigint NOT NULL,
+    descripcion character varying COLLATE pg_catalog."default",
+    fecha_creacion date,
+    vigente boolean,
+    CONSTRAINT tarea_pkey PRIMARY KEY (identificador)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.tarea
+    OWNER to postgres;
